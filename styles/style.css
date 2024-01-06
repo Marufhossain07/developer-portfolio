@@ -1,4 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -50,4 +54,185 @@
     background-repeat: no-repeat ;
     padding-top: 216px;
     margin-bottom: 140px;
+}
+.pic{
+   width: 451px;
+   height: 898px;
+
+}
+.main-content{
+   display: flex;
+   
+   justify-content: space-around;
+   margin-left: 105px;
+}
+.main-title{
+   color: #151414;
+   font-size: 40px;
+   font-weight: 700;
+   width: 288px;
+   height: 94px;
+   margin-bottom: 24px;
+}
+.main-description{
+   color: #444343;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   width: 416px;
+   margin-bottom: 16px;
+}
+
+.list li{
+   color:  #444343;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px; 
+   
+}
+.pic{
+   margin-top: 140px;
+}
+.main-section{
+   align-items: center;
+   margin-top: 370px;
+}
+.plan-title{
+   color:  #151414;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
+}
+.skill-img{
+   width: 92.958px;
+   height: 92.958px; 
+}
+.skill-title{
+   color: var(--Dark-01, #151414);
+
+   font-size: 30px;
+   font-weight: 700;
+
+}
+.skill{
+   text-align: center;
+   
+}
+.skill-container{
+   display: flex;
+   justify-content: space-around;
+}
+.last-title{
+   color: black;
+   font-size: 40px;
+   font-weight: 700;
+   width: 459px;
+}
+.last-section{
+   background-image: url(../images/watch.png);
+   background-repeat: no-repeat;
+   width: 1140px;
+   height: 300px;
+}
+footer{
+   background-color: black;
+   width: 100%;
+   height: 577px;
+
+
+}
+.footer-title{
+   color: #F8F8F8;
+   font-size: 45px;
+   font-weight: 700;
+   margin-bottom: 16px;
+   
+}
+.footer-description{
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+   width: 485px;
+   margin-bottom: 24px;
+}
+.email{
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+   margin-bottom: 16px;
+}
+.phone{
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+   margin-bottom: 74px;
+}
+.foot-title{
+   color: #FFF;
+   font-size: 25px;
+   font-weight: 600;
+}
+.email-border{
+   background-color: #151414;
+   border-radius: 8px;
+   border: 1px solid #FFF;
+   width: 325px;
+   height: 64px;
+}
+.btn2{
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   
+}
+.btn2{
+   width: 170px;
+   height: 64px;
+   border-radius: 8px;
+   background: #005FAC;
+   padding: 20px 36px;
+}
+input{
+   color:  #F3F3F3;
+   font-family: Work Sans;
+   font-weight: 400;
+   padding-left: 21px;
+
+}
+.foot3{
+   padding-left: 230px;
+   padding-top: 130px;
+}
+
+.foot2-title{
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: 31px;
+
+}
+footer{
+   display: flex;
+   padding: 130px 230px;
+}
+.footer-column{
+   width: 50%;
+}
+.btn2{
+   color: #FFF;
+   font-family:Inter;
+   font-size: 20px;
+
+}
+input{
+   margin-bottom: 36px;
 }
